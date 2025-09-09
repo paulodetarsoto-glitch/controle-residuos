@@ -229,7 +229,7 @@ if not st.session_state.get("authenticated"):
             }}
             /* Estilo da caixa de login - AGORA COM CLASSE CUSTOMIZADA */
             .login-container-custom {{
-                background-color: white; /* Fundo branco sólido */
+                background-color: transparent !important;
                 border-radius: 15px;
                 padding: 2rem;
                 box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
